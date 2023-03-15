@@ -1,0 +1,97 @@
+
+body, html
+{
+    background-image: url("../img/karttaWood.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div
+{
+    padding-top: 20px;
+}
+
+img
+{
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.kortti
+{
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.etu,
+.taka
+{
+    backface-visibility: hidden;
+    user-select: none;
+    pointer-events: none;
+}
+
+.taka
+{
+    position: absolute;
+    top: 10;
+    left: 0;
+    transform: rotateY(180deg);
+}
+.boksi
+{
+    box-sizing: border-box;
+}
+
+.laskin
+{
+    padding: 4px;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#siirrot
+{
+    background-color: rgb(101, 6, 6);
+    text-align: center;
+    width: 31%;
+    margin-left: 80px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    font-weight: bold;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+.reset
+{
+    padding: 4px;
+    width: 50%;
+    text-align: center;
+}
+
+#aloitus
+{
+    
+    border-radius: 5px;
+    width: 31%;
+    height: 70%;
+    color: #00FF00;
+    font-weight: bold;
+    font-size: 1em;
+    background-color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.flipped
+{
+    font-style: italic;
+}
